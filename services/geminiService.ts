@@ -2,7 +2,7 @@
 import { GoogleGenAI, GenerateContentResponse, Chat, Content, Part, GenerationConfig, Candidate, Tool } from "@google/genai";
 import type { ChatMessage, GroundingMetadata, AssistantSettings, ParsedCalendarAction, CalendarActionType, GeminiServiceResponse } from '../types';
 
-const GEMINI_MODEL_NAME = "gemini-2.5-flash-preview-04-17";
+const GEMINI_MODEL_NAME = "gemini-2.5-flash";
 
 export class GeminiService {
   private ai: GoogleGenAI;
