@@ -161,7 +161,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
           </select>
         </SettingRow>
         
-        <SettingRow label="Disable Thinking (Flash Model)" description="For 'gemini-2.5-flash-preview-04-17': disable thinking for lower latency.">
+        <SettingRow label="Disable Thinking (Flash Model)" description="For 'gemini-2.5-flash': disable thinking for lower latency.">
              <div className="flex items-center h-5">
                 <input id="disableThinking" name="disableThinking" type="checkbox" checked={currentSettings.disableThinking} onChange={handleChange}
                     className="focus:ring-primary-500 h-4 w-4 text-primary-600 border-slate-300 rounded" />
