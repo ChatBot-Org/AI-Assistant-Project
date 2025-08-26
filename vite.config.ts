@@ -19,6 +19,10 @@ export default defineConfig(({ mode }) => {
       test: {
         globals: true,
         environment: 'jsdom',
+      },
+      server: {
+        port: Number(process.env.PORT) || 5173,
+        host: true
       }
     };
 });
