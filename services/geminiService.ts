@@ -54,7 +54,7 @@ export class GeminiService {
       // thinkingConfig will be added conditionally below
     };
 
-    if (GEMINI_MODEL_NAME === "gemini-2.5-flash-preview-04-17") {
+    if (GEMINI_MODEL_NAME === "gemini-2.5-flash") {
         chatCreationConfig.thinkingConfig = settings.disableThinking ? { thinkingBudget: 0 } : undefined;
     }
 
